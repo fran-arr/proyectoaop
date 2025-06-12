@@ -86,5 +86,32 @@
     <version>1.9.24</version>
     <!-- <scope>runtime</scope>f-->
 </dependency>
-  </dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>3.5.0</version>
+</dependency>
+
+
+  
+  
+ <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-aop</artifactId>
+    <version>3.5.0</version>
+</dependency> 
+  
+  
+  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    <version>3.5.0</version>
+</dependency>
+  
+  </dependencies>  
+  
 </project>
