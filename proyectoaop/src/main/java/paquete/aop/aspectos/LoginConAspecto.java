@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class LoginConAspecto { //Esta es el aspecto como tal...
 
 	
-	@Before("execution(public void insertarCliente())")
+	@Before("execution(public void insertar*() )") // La point card hace que todo a partir de insertar se ejecute
 	public void antesInsertarCliente() {
 		System.out.println("El usuario esta logeado");
 		
@@ -20,3 +20,4 @@ public class LoginConAspecto { //Esta es el aspecto como tal...
 	}
 	
 }
+//
