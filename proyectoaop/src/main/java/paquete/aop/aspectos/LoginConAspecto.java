@@ -14,7 +14,7 @@ public class LoginConAspecto { //Esta es el aspecto como tal...
 	
 	@Before("execution(public void insertarCliente())")
 	public void antesInsertarCliente() {
-		System.out.println("El usuario esta logeado<");
+		System.out.println("El usuario esta logeado");
 		
 		System.out.println("El perfil para insertar clientes es correcto");
 	}
